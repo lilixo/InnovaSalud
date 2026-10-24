@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Policlínico InnovaSalud: consultas médicas, laboratorio y atención integral.">
+  <title>InnovaSalud | Cuidamos de ti</title>
+  <link rel="icon" href="images/favicon.ico"><link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<div class="topbar"><div class="container"><span>Atención: Lun–Sáb 8:00 a. m.–8:00 p. m.</span><span>Central: 951 837 123 · Emergencias 24/7</span></div></div>
+<header class="site-header"><div class="container header-row">
+  <a class="brand" href="index.html"><img class="logo" src="images/2440c59b-79b4-4a6a-9def-8b9b01d9d126.jpg" alt="Policlínico InnovaSalud"></a>
+  <button class="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+  <nav class="nav"><a class="activo" href="index.html">Inicio</a><a href="especialidades.html">Especialidades</a><a href="resultados.html">Resultados</a><a href="ubicanos.html">Ubícanos</a></nav>
+  <span class="header-cta header-cta-static" aria-label="Urgencias 106">Urgencias · 106</span>
+</div></header>
+
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <span class="kicker">Salud cercana y confiable</span>
+    <h1>Cuidamos de ti y de tu familia.</h1>
+    <p class="lead">Atención médica integral, profesionales capacitados y servicios pensados para acompañarte en cada etapa.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#reservar">Reservar una cita</a><a class="btn btn-secondary" href="especialidades.html">Ver especialidades</a></div>
+    <div class="trust-row"><span class="trust-item"><i class="check">✓</i>Atención segura</span><span class="trust-item"><i class="check">✓</i>Resultados en línea</span><span class="trust-item"><i class="check">✓</i>Emergencias 24/7</span></div>
+  </div>
+  <div class="hero-media"><img class="hero-photo" src="images/1.jpg" alt="Sede del Policlínico InnovaSalud"><div class="floating-card"><strong>+15</strong><span>especialidades y servicios para cuidar tu salud</span></div></div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head"><div><span class="kicker">Nuestros servicios</span><h2>Todo lo que necesitas, en un solo lugar</h2></div><p>Accede a atención médica, laboratorio y orientación sin complicaciones.</p></div>
+  <div class="cards-3">
+    <article class="service-card"><div class="icon-box">+</div><h3>Consultas médicas</h3><p>Evaluación presencial con profesionales de distintas especialidades.</p><a class="text-link" href="especialidades.html">Conocer especialidades →</a></article>
+    <article class="service-card"><div class="icon-box">Lab</div><h3>Laboratorio clínico</h3><p>Consulta tus resultados mediante tu DNI y código de atención.</p><a class="text-link" href="resultados.html">Consultar resultados →</a></article>
+    <article class="service-card"><div class="icon-box">24h</div><h3>Atención oportuna</h3><p>Información clara sobre horarios, sede y canales de atención.</p><a class="text-link" href="ubicanos.html">Ver ubicación →</a></article>
+  </div>
+  <div class="metrics"><div class="metric"><strong>6+</strong><span>especialidades destacadas</span></div><div class="metric"><strong>24/7</strong><span>canal de urgencias</span></div><div class="metric"><strong>1</strong><span>sede principal</span></div><div class="metric"><strong>100%</strong><span>orientación al paciente</span></div></div>
+</div></section>
+
+<section id="reservar" class="section section-soft"><div class="container booking-wrap">
+  <div class="booking-info"><span class="kicker" style="color:#8ee5ee">Reserva en línea</span><h2>Agenda tu próxima atención</h2><p>Completa tus datos y confirma la información antes de registrar la cita.</p><div class="booking-points"><div class="booking-point"><div class="check">1</div><div><b>Elige sede y especialidad</b><span>Selecciona el servicio que necesitas.</span></div></div><div class="booking-point"><div class="check">2</div><div><b>Escoge fecha y hora</b><span>El formulario valida los campos antes de continuar.</span></div></div><div class="booking-point"><div class="check">3</div><div><b>Confirma tu solicitud</b><span>Verás un resumen antes de finalizar.</span></div></div></div></div>
+  <div class="form-card"><h2>Reservar cita</h2><form id="formReserva" class="form-grid">
+    <div class="field full"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" autocomplete="name" placeholder="Ej. Ana Torres" required minlength="3"></div>
+    <div class="field"><label for="sede">Sede</label><select id="sede" name="sede" required><option value="">Seleccione</option><option>Sede Comas</option></select></div>
+    <div class="field"><label for="especialidadCita">Especialidad</label><select id="especialidadCita" name="especialidad" required><option value="">Seleccione</option><option>Medicina General</option><option>Pediatría</option><option>Odontología</option><option>Cardiología</option><option>Traumatología</option><option>Ginecología</option></select></div>
+    <div class="field"><label for="fechaCita">Fecha</label><input id="fechaCita" name="fecha" type="date" required></div>
+    <div class="field"><label for="horaCita">Hora</label><input id="horaCita" name="hora" type="time" min="08:00" max="20:00" required><span class="helper">Horario de atención: 08:00–20:00</span></div>
+    <div class="field full form-actions"><button class="btn btn-primary" type="submit">Revisar y confirmar</button><span class="helper">Demostración académica: no envía datos a un servidor.</span></div>
+  </form></div>
+</div></section>
+</main>
+
+<footer><div class="container footer-grid"><div><img class="logo" src="images/2440c59b-79b4-4a6a-9def-8b9b01d9d126.jpg" alt="InnovaSalud"><p>Atención médica cercana, clara y orientada al bienestar de nuestros pacientes.</p></div><div><h4>Navegación</h4><div class="footer-links"><a href="especialidades.html">Especialidades</a><a href="resultados.html">Resultados</a><a href="ubicanos.html">Ubícanos</a></div></div><div><h4>Contacto</h4><p>Av. Micaela Bastidas, Comas</p><p>951 837 123</p><p>Lun–Sáb: 8:00–20:00</p></div></div><div class="container footer-bottom"><span>© 2026 Policlínico InnovaSalud</span><span>Proyecto académico de Diseño Web</span></div></footer>
+
+<div id="appointmentModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal"><h3 id="modalTitle">Confirma tu cita</h3><p>Revisa los datos antes de registrar la solicitud.</p><div id="appointmentSummary" class="summary"></div><div class="modal-actions"><button id="cancelAppointment" class="btn btn-secondary" type="button">Editar</button><button id="confirmAppointment" class="btn btn-primary" type="button">Confirmar cita</button></div></div></div>
+<script src="js/script.js"></script>
+</body></html>
+git config --global user.email "lynsevillano1@gmail.com"
